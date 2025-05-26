@@ -1,0 +1,5 @@
+numpy==2.2.6
+scikit_learn==1.6.1
+scipy==1.15.3
+torch==2.7.0
+torch_geometric==2.6.1
