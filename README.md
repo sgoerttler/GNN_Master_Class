@@ -44,6 +44,13 @@ The CiteSeer dataset is downloaded automatically by the code.
 ### 4. Run the Code
 You can run the experiments by executing the main.py file. The experiment number can be specified using the `--experiment` argument, which accepts either `1` or `2`. The default is `1`.
 
+## 📁 Resources
+- https://distill.pub/2021/gnn-intro/
+- https://distill.pub/2021/understanding-gnns/
+- https://www.youtube.com/watch?v=GXhBEj1ZtE8
+- [Kipf, T. N., & Welling, M. (2016). Semi-supervised classification with graph convolutional networks. arXiv preprint arXiv:1609.02907.](https://arxiv.org/abs/1609.02907)
+- [Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017, July). Neural message passing for quantum chemistry. In International conference on machine learning (pp. 1263-1272). PMLR.](https://arxiv.org/abs/1704.01212)
+
 ## 📬 Contact
 
 For questions or contributions, feel free to open an issue or pull request.
