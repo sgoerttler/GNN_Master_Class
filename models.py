@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from torch_geometric.nn import GCNConv
 import numpy as np
 
-from gnn_layers import GCNLayerRenorm, GCNLayerFirstOrder
+from gcn_layers import GCNLayerRenorm, GCNLayerFirstOrder
 from utils import D_norm
 
 
