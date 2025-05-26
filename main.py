@@ -13,13 +13,13 @@ def experiment_1():
     train_loader, val_loader = get_loaders(dataset='ECG5000')
     print()
 
-    # print('***** Experiment 1a *****')
-    # # Running emulation model and baseline model
-    # for model_name in ['GCN_CNN_emulation', 'CNN_1_layer']:
-    #     print(f'Running {model_name} model...')
-    #     model = get_model(model_name, num_classes=5, N_s=140)
-    #     train_model(model, train_loader, val_loader, epochs=50)
-    #     print()
+    print('***** Experiment 1a *****')
+    # Running emulation model and baseline model
+    for model_name in ['GCN_CNN_emulation', 'CNN_1_layer']:
+        print(f'Running {model_name} model...')
+        model = get_model(model_name, num_classes=5, N_s=140)
+        train_model(model, train_loader, val_loader, epochs=50)
+        print()
 
     input('Press Enter to continue with Experiment 1b...\n')
 
