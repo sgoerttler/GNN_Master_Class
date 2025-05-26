@@ -1,4 +1,4 @@
-# 🧠 GNN Masterclass
+# 🧠 GNN Master Class (27. May 2025)
 
 This repository contains code for simple demonstrations of Graph Convolutional Networks (GCNs). 
 These demonstrations explore the link between 1D-Convolutional Neural Networks and GCNs, and compare a custom implementation to a torch-geometric implementation.
